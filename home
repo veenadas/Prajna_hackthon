@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Amrita Online Hackathon 2026</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#080b18;
+color:white;
+overflow-x:hidden;
+}
+
+/**********************
+NAVBAR
+**********************/
+
+.navbar{
+transition:.4s;
+background:rgba(0,0,0,.15);
+backdrop-filter:blur(12px);
+}
+
+.navbar.scrolled{
+background:#0c1024;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:700;
+color:#fff!important;
+}
+
+.nav-link{
+color:white!important;
+margin-left:20px;
+font-weight:500;
+}
+
+.nav-link:hover{
+color:#ff477e!important;
+}
+
+.register-btn{
+
+background:linear-gradient(45deg,#ff416c,#ff4b2b);
+color:white!important;
+padding:10px 24px;
+border-radius:30px;
+font-weight:600;
+}
+
+/**********************
+HERO
+**********************/
+
+.hero{
+
+height:100vh;
+
+background:
+
+linear-gradient(rgba(7,7,20,.72),
+rgba(7,7,20,.82)),
+
+url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+
+}
+
+.hero h5{
+color:#ff4d79;
+font-weight:600;
+letter-spacing:2px;
+}
+
+.hero h1{
+
+font-size:70px;
+font-weight:800;
+line-height:1.1;
+
+}
+
+.hero p{
+
+font-size:22px;
+opacity:.9;
+margin-top:25px;
+
+}
+
+.gradient{
+
+background:linear-gradient(45deg,#ff416c,#ff4b2b);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+.hero-buttons{
+
+margin-top:35px;
+
+}
+
+.hero-buttons a{
+
+padding:15px 35px;
+border-radius:40px;
+margin-right:15px;
+font-weight:600;
+text-decoration:none;
+
+}
+
+.btn-register{
+
+background:linear-gradient(45deg,#ff416c,#ff4b2b);
+color:white;
+
+}
+
+.btn-outline-custom{
+
+border:2px solid white;
+color:white;
+
+}
+
+.btn-outline-custom:hover{
+
+background:white;
+color:black;
+
+}
+
+/**********************
+COUNTDOWN
+**********************/
+
+.countdown{
+
+margin-top:70px;
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+.time-box{
+
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+
+padding:25px;
+border-radius:20px;
+width:120px;
+text-align:center;
+
+}
+
+.time-box h2{
+
+font-weight:700;
+font-size:42px;
+
+}
+
+.time-box span{
+
+font-size:15px;
+opacity:.8;
+
+}
+
+/**********************
+SECTION
+**********************/
+
+section{
+
+padding:100px 0;
+
+}
+
+.section-title{
+
+text-align:center;
+margin-bottom:70px;
+
+}
+
+.section-title h2{
+
+font-size:48px;
+font-weight:700;
+
+}
+
+.section-title p{
+
+color:#ccc;
+
+}
+
+/**********************
+CARDS
+**********************/
+
+.glass{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+border-radius:20px;
+
+padding:30px;
+
+transition:.4s;
+
+height:100%;
+
+}
+
+.glass:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(255,75,43,.2);
+
+}
+
+/**********************
+TRACK ICON
+**********************/
+
+.icon-circle{
+
+height:70px;
+width:70px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+
+background:linear-gradient(45deg,#ff416c,#ff4b2b);
+
+font-size:28px;
+
+margin-bottom:20px;
+
+}
+
+/**********************
+PRIZE
+**********************/
+
+.prize{
+
+text-align:center;
+
+padding:40px;
+
+border-radius:25px;
+
+background:linear-gradient(145deg,#10152d,#181d37);
+
+transition:.4s;
+
+}
+
+.prize:hover{
+
+transform:scale(1.05);
+
+}
+
+.prize h1{
+
+font-size:55px;
+
+color:#ff4b2b;
+
+}
+
+/**********************
+TIMELINE
+**********************/
+
+.timeline{
+
+border-left:4px solid #ff416c;
+
+padding-left:35px;
+
+}
+
+.timeline-item{
+
+margin-bottom:40px;
+position:relative;
+
+}
+
+.timeline-item::before{
+
+content:'';
+
+position:absolute;
+
+left:-45px;
+top:5px;
+
+height:20px;
+width:20px;
+
+background:#ff416c;
+border-radius:50%;
+
+}
+
+/**********************
+FAQ
+**********************/
+
+.accordion-button{
+
+background:#161b33;
+color:white;
+
+}
+
+.accordion-button:not(.collapsed){
+
+background:#ff416c;
+color:white;
+
+}
+
+.accordion-body{
+
+background:#10152d;
+color:white;
+
+}
+
+/**********************
+CONTACT
+**********************/
+
+.contact-box{
+
+background:#11172f;
+
+padding:45px;
+
+border-radius:20px;
+
+}
+
+/**********************
+FOOTER
+**********************/
+
+footer{
+
+background:#050816;
+
+padding:40px;
+
+text-align:center;
+
+margin-top:50px;
+
+}
+
+/**********************
+RESPONSIVE
+**********************/
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.countdown{
+
+justify-content:center;
+
+}
+
+.section-title h2{
+
+font-size:35px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">
+<i class="fa-solid fa-code"></i>
+Amrita Hackathon
+</a>
+
+<button class="navbar-toggler bg-light"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#tracks">Tracks</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+
+<li class="nav-item ms-3">
+
+<a class="register-btn text-decoration-none"
+href="#contact">
+
+Register
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-8">
+
+<h5>AMRITA VISHWA VIDYAPEETHAM</h5>
+
+<h1>
+
+Online
+
+<span class="gradient">
+
+Hackathon
+
+</span>
+
+2026
+
+</h1>
+
+<p>
+
+Innovate. Collaborate. Build the Future.
+
+Join thousands of innovators from across the country for
+72 hours of coding, learning and winning exciting prizes.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#contact" class="btn-register">
+
+Register Now
+
+</a>
+
+<a href="#about"
+class="btn-outline-custom">
+
+Learn More
+
+</a>
+
+</div>
+
+<div class="countdown">
+
+<div class="time-box">
+<h2 id="days">00</h2>
+<span>Days</span>
+</div>
+
+<div class="time-box">
+<h2 id="hours">00</h2>
+<span>Hours</span>
+</div>
+
+<div class="time-box">
+<h2 id="minutes">00</h2>
+<span>Minutes</span>
+</div>
+
+<div class="time-box">
+<h2 id="seconds">00</h2>
+<span>Seconds</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>

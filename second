@@ -1,0 +1,609 @@
+<!-- =========================
+ABOUT
+========================= -->
+
+<section id="about">
+
+<div class="container">
+
+<div class="section-title">
+<h2>About The Hackathon</h2>
+
+<p>
+Amrita Online Hackathon 2026 is a national-level innovation challenge
+that empowers students to build impactful technology solutions for
+real-world problems.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-6">
+
+<div class="glass h-100">
+
+<h3 class="mb-4">
+<i class="fa-solid fa-lightbulb text-warning"></i>
+What is Amrita Online Hackathon?
+</h3>
+
+<p>
+
+This hackathon brings together students, developers,
+designers, and innovators from across India to solve
+real-world challenges using technology.
+
+</p>
+
+<p>
+
+Participants will collaborate for
+72 hours, attend mentor sessions,
+learn from industry experts,
+and compete for exciting prizes.
+
+</p>
+
+<p>
+
+Whether you're a beginner or an experienced coder,
+this event provides an opportunity to
+learn, innovate and showcase your talent.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="glass h-100">
+
+<h3 class="mb-4">
+<i class="fa-solid fa-star text-warning"></i>
+Highlights
+</h3>
+
+<div class="row">
+
+<div class="col-6 mb-4">
+
+<h1 class="gradient">72</h1>
+
+<p>Hours of Coding</p>
+
+</div>
+
+<div class="col-6 mb-4">
+
+<h1 class="gradient">₹2L+</h1>
+
+<p>Prize Pool</p>
+
+</div>
+
+<div class="col-6">
+
+<h1 class="gradient">250+</h1>
+
+<p>Teams</p>
+
+</div>
+
+<div class="col-6">
+
+<h1 class="gradient">100+</h1>
+
+<p>Mentors</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+STATISTICS
+========================= -->
+
+<section>
+
+<div class="container">
+
+<div class="row g-4 text-center">
+
+<div class="col-md-3">
+
+<div class="glass">
+
+<h1 class="gradient">10K+</h1>
+
+<h5>Participants</h5>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass">
+
+<h1 class="gradient">500+</h1>
+
+<h5>Projects</h5>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass">
+
+<h1 class="gradient">100+</h1>
+
+<h5>Mentors</h5>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass">
+
+<h1 class="gradient">72</h1>
+
+<h5>Hours</h5>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+TRACKS
+========================= -->
+
+<section id="tracks">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Hackathon Tracks</h2>
+
+<p>
+Choose your favourite domain and build an innovative solution.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-brain"></i>
+</div>
+
+<h4>Artificial Intelligence</h4>
+
+<p>
+
+Machine Learning, Deep Learning,
+LLMs, Computer Vision and NLP.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-cloud"></i>
+</div>
+
+<h4>Cloud Computing</h4>
+
+<p>
+
+Google Cloud, Azure,
+AWS and scalable cloud applications.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+
+<h4>Cyber Security</h4>
+
+<p>
+
+Network Security,
+Ethical Hacking,
+Threat Detection.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-link"></i>
+</div>
+
+<h4>Blockchain</h4>
+
+<p>
+
+Web3,
+Smart Contracts,
+Digital Identity
+and DeFi.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-heart-pulse"></i>
+</div>
+
+<h4>Healthcare</h4>
+
+<p>
+
+Digital Healthcare,
+Medical AI,
+Patient Monitoring.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-leaf"></i>
+</div>
+
+<h4>Sustainability</h4>
+
+<p>
+
+Climate Change,
+Energy,
+Green Technology
+Solutions.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-city"></i>
+</div>
+
+<h4>Smart Cities</h4>
+
+<p>
+
+Urban Mobility,
+IoT,
+Traffic Management
+Solutions.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6">
+
+<div class="glass">
+
+<div class="icon-circle">
+<i class="fa-solid fa-robot"></i>
+</div>
+
+<h4>Open Innovation</h4>
+
+<p>
+
+Build anything innovative
+that creates social impact.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+PRIZES
+========================= -->
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Prize Pool</h2>
+
+<p>
+
+Compete for cash prizes,
+certificates and internship opportunities.
+
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3">
+
+<div class="prize">
+
+<h4>🥇 Winner</h4>
+
+<h1>₹1L</h1>
+
+<p>
+
+Cash Prize
+
+Certificate
+
+Internship Opportunity
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="prize">
+
+<h4>🥈 Runner Up</h4>
+
+<h1>₹50K</h1>
+
+<p>
+
+Cash Prize
+
+Certificate
+
+Mentorship
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="prize">
+
+<h4>🥉 Second Runner Up</h4>
+
+<h1>₹25K</h1>
+
+<p>
+
+Cash Prize
+
+Certificate
+
+Goodies
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="prize">
+
+<h4>⭐ Innovation Award</h4>
+
+<h1>₹25K</h1>
+
+<p>
+
+Best Social Impact
+
+Best UI
+
+Best AI Project
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+TIMELINE
+========================= -->
+
+<section id="timeline">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Event Timeline</h2>
+
+<p>
+
+Your journey from registration to becoming a champion.
+
+</p>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h4>Registration Opens</h4>
+
+<p>
+
+January 10, 2026
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h4>Idea Submission</h4>
+
+<p>
+
+February 05, 2026
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h4>Hackathon Begins</h4>
+
+<p>
+
+February 20, 2026
+
+72 Hours Online Coding
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h4>Mentor Sessions</h4>
+
+<p>
+
+Technical & Industry Mentoring
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h4>Final Evaluation</h4>
+
+<p>
+
+Project Demonstration
+&
+Presentation
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h4>Winner Announcement</h4>
+
+<p>
+
+Closing Ceremony
+&
+Prize Distribution
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
